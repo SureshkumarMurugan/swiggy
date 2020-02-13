@@ -1,0 +1,305 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+#headerBlock
+{
+    height: 600px;
+}
+.leftheaderBlock
+{
+    background: rgb(248, 243, 243);
+    width: 60%;
+    height: 600px;
+    float: left;
+}
+.rightheaderBlock
+{
+    
+    width: 40%;
+    float: right;
+    height: 600px;
+    background-color: rgb(255, 45, 45);
+    background-size: cover;
+    background-attachment: fixed;
+}
+img
+{
+    height: 100%;
+    width: 600px;
+}
+.logo
+{
+    width: 30%;
+    float: left;
+    height:70px ;
+}
+.menu
+{
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+.menu ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 54px;
+}
+.menu ul li
+{
+display: inline-block;
+}
+#menuandlogo
+{
+    padding: 80px;
+}
+.logo svg
+{
+    fill: #fc8019;
+    width:200px ;
+}
+.menu ul li a
+{
+color:black ;
+padding: 17px;
+text-decoration: none;
+font-weight: bold;
+}
+.menu ul li a:hover
+{
+    color:#fc8019 ;
+}
+.signup
+{
+    background: black;
+    padding: 11px 30px;
+    color: white !important;
+}
+#mainblock,.footerlist
+{
+    padding:  20px 60px;
+}
+.headerTitle h1
+{
+font-weight: 600;
+font-size: 40px;
+text-transform: capitalize;
+margin-bottom: 5px;
+}
+.contentbloackpara
+{
+font-size: 23px;
+padding: 0;
+margin-top: 0;
+margin-bottom: 50px;
+}
+.form-control
+{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+form
+{
+position: relative;
+}
+.btn
+{
+position: absolute;
+background: orange;
+color: white;
+padding: 10px;
+border: none;
+right: 0;
+top: 0;
+height: 59px;
+width: 120px;
+font-size: 18px;
+font-weight: bold;
+
+}
+.locateme
+{
+    position: absolute;
+    right: 130px;
+    top: 10px;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-size: 13px   !important;
+    color: gray;
+
+}
+.locateme:hover
+{
+    background: rgb(166,211,240);
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: pointer;
+
+}
+.footerlist h3
+{
+color: #999;
+text-transform: uppercase;
+font-size: 15px;
+}
+.footerlist ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.footerlist ul li
+{
+display: inline-block;
+}
+.footerlist ul li a
+{
+    text-decoration: none;
+}
+.footerlist ul li:nth-child(odd) a
+{
+    color: #000;
+}
+.footerlist ul li:nth-child(even) a
+{
+    color: #777;
+}
+#middlesection
+{
+    background: #302118;
+    padding: 0 20px;
+    height: 400px;
+
+}
+figure
+{
+    margin: 0;
+    padding: 0;
+}
+.leftarea
+{
+    width: 30%;
+    float: left;
+}
+.middlearea
+{
+    width: 30%;
+    float: left;
+
+}
+.rightarea
+{
+    width: 30%;
+    float: left;
+}
+
+
+.contentarea
+{
+    text-align: center;
+    padding: 20px;
+}
+.contentarea img
+{
+    width: 100px;
+}
+/*Restaurants css here*/
+#Restaurants{
+    clear: both;
+}
+.Restaurants_Left{
+    width: 45%;
+   float: left;
+}
+.Restaurants_Right{
+    width: 55%;
+    float: left;
+    
+}
+.Restaurants_Left section{
+    padding: 110px 80px;
+}
+.Restaurants_Left section h1{
+    font-size: 36px;
+    font-size: 600;
+    padding: 0;
+    width:60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Restaurants_Left section p{
+    font-size: 18px;
+    color: #999;
+    padding: 0px 0px 40px 0px;
+    margin: 0;
+}
+.Restaurants_Left section figure{
+    margin: 0;
+    display:inline-block;
+}
+.Restaurants_Left section figure img{
+    width:180px;
+}
+.Restaurants_Right figure img{
+    width: 400px;
+}
+.Restaurants_Right figure {
+    float: left;
+    width: 46%;
+}
+.Restaurants_Right figure:nth-child(2){
+    padding-top: 70px;
+}
+
+#footermenus{
+    clear: both;
+    background-color:black;
+    height: 4000px;
+    line-break: unset;
+}
+.footer1{
+    width: 25%;
+    float: left;
+}
+.footer2{
+    width: 25%;
+    float: left;
+}
+.footer3{
+    width: 25%;
+    float: left;
+    padding:0px 0px 0px 0px;
+}
+.footer4{
+    padding: 80px 0px 0px 0px;
+    width: 25%;
+    float: right;
+}
+.footer4 figure img{
+    width: 200px;
+    height: 65px;
+    box-sizing: inherit;
+    padding: 2px;
+    border: 1.5px groove white;
+    border-radius: unset;
+}
+#footermenus ul {
+    color: gray;
+    list-style: none; 
+    margin-left: 2cm;  
+    padding: 2cm;
+
+}
+#footermenus ul  li{
+    color: white;
+}
+#footermenus article ul li{
+    padding: 7px;
+
+}
